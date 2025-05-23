@@ -83,9 +83,9 @@ The printer expects `.gcode` files in a subdirectory named `models/`.
    Your slicer settings are **crucial** for successful prints. Here are some recommended settings and screenshots of how they might look:
 
     <p align="center">
-      <img src="https://github.com/CreativeMindstorms/LEGO-3D-Printer/raw/master/media/printer_settings.JPG" alt="Printer Settings" width="30%"/>
+      <img src="https://github.com/CreativeMindstorms/LEGO-3D-Printer/raw/main/media/printer_settings.JPG" alt="Printer Settings" width="30%"/>
       
-      <img src="https://github.com/CreativeMindstorms/LEGO-3D-Printer/raw/master/media/extruder_settings.JPG" alt="Extruder Settings" width="30%"/>
+      <img src="https://github.com/CreativeMindstorms/LEGO-3D-Printer/raw/main/media/extruder_settings.JPG" alt="Extruder Settings" width="30%"/>
       <br>
       <em>Example Slicer Settings for the LEGO 3D Printer.</em>
     </p>
