@@ -33,6 +33,7 @@ The project includes the following features that enable the 3D printing process:
 -   **Automated Homing:** Uses touch sensors for automatic homing of all X, Y, and Z axes, for a consistent print origin.
 -   **EV3 Display Interface:** Provides an interactive interface on the EV3 screen for selecting G-code files, displaying print progress, and prompting user actions.
 -   **Print Completion Sequence:** Automatically moves the extruder to a safe position and displays a completion message after a print is finished.
+-   **Manual Control Utility:** A separate script (`manual.py`) to manually move the X, Y, and Z axes, and trigger the extruder, for calibration, testing, or fine-tuning.
 
 ## Requirements
 Before you begin, ensure you have the following:
@@ -113,6 +114,7 @@ The printer expects `.gcode` files in a subdirectory named `models/`.
 ## Usage
 Once the code is transferred and your EV3 is set up, running the printer is straightforward.
 
+### 1. Running the Main Printer Program (`main.py`)
 1.  **Run `main.py`:**
     *   On your EV3 brick, navigate to the `main.py` file (under "File Browser").
     *   Select `main.py` and press the center button to run it.
@@ -140,6 +142,22 @@ Once the code is transferred and your EV3 is set up, running the printer is stra
     *   Upon completion of the G-code file, the screen will display "Print complete!" and a beep sound.
     *   The Z-axis will lift, and the Y-axis (print bed) will move forward to present the finished print.
     *   The screen will prompt "Press any button to exit." Press any button to return to the EV3 menu.
+
+### 2. Manual Control (`manual.py`)
+This script allows you to manually move the printer's axes and control the extruder, which is very useful for:
+*   Initial setup and physical alignment.
+*   Troubleshooting motor movements.
+*   Testing extruder functionality.
+
+To use it:
+1.  On your EV3 brick, navigate to `manual.py` file (under "File Browser").
+2.  Select `manual.py` and press the center button to run it.
+3.  The EV3 screen will show text indicating what is X and Y movement (UP/DOWN for Y, LEFT/RIGHT for X). Press the corresponding buttons to move.
+4.  Press the **CENTER** button to switch to E (Extruder) and Z (Z-axis) control. The screen will update to show UP/DOWN for Z, LEFT/RIGHT for E.
+    *   **LEFT (E-):** Activates the extruder (e.g., presses the 3D pen button).
+    *   **RIGHT (E+):** Deactivates the extruder (e.g., releases the 3D pen button).
+5.  Press the **CENTER** button again to switch back to X-Y mode.
+6.  To exit `manual.py`, press the **BACK** button on the EV3 brick.
 
 ## Customization
 You can customize various parameters within the `main.py`, `gcode_handler.py`, and especially `printer.py` files to match your specific LEGO printer's design and your 3D pen's characteristics.
