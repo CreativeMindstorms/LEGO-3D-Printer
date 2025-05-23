@@ -179,7 +179,7 @@ You can customize various parameters within the `main.py`, `gcode_handler.py`, a
 ### 3. Printer Mechanics & Calibration (`printer.py`)
 This file contains crucial parameters for your printer's physical operation.
 
-#### Global Variables (at start of `Printer` class)
+#### Global Variables (at start of `Printer` class in `__init__`)
 
 | Variable                     | Description & Customization                                                                                                                                                                                                                            |
 | :--------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
