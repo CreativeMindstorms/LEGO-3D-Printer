@@ -11,6 +11,10 @@ As Pybricks is available for multiple other Lego robotics system, the `printer.p
 
 If anyone would be willing to create a fork for different systems, that would be great!
 
+If you enjoy what I do and would like to support future creations, consider [buying me a coffee](https://buymeacoffee.com/creativemindstorms)!
+
+Every contribution helps fund new machines and videos on YouTube!
+
 ## Table of Contents
 1. [Credits](#credits)
 1. [Features](#features)
