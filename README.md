@@ -11,6 +11,8 @@ As Pybricks is available for multiple other Lego robotics system, the `printer.p
 
 If anyone would be willing to create a fork for different systems, that would be great!
 
+📘 Building instructions are on Rebrickable: https://reb.li/m/221554
+
 If you enjoy what I do and would like to support future creations, consider buying me a [🧱 Lego brick](https://buymeacoffee.com/creativemindstorms)!
 
 Every contribution helps fund new machines and videos on YouTube!
@@ -222,6 +224,8 @@ This file contains crucial parameters for your printer's physical operation.
 
 ## About The Machine
 The current code configuration assumes a specific setup for motors and sensors on the EV3 brick. It uses a single EV3 brick.
+
+📘 Building instructions are on Rebrickable: https://reb.li/m/221554
 
 ### Connections
 **EV3 Brick:**
