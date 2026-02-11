@@ -3,7 +3,7 @@ MicroPython code that runs a fully functional Lego 3D Printer.
 
 This is the code for my Lego 3D printer, as seen on my YouTube channel:
 <div align="left">
-  <a href="https://youtu.be/ZLuFeDKMBKc"><img src="https://img.youtube.com/vi/ZLuFeDKMBKc/0.jpg" alt="LEGO 3D Printer video"></a>
+  <a href="https://youtu.be/ZLuFeDKMBKc"><img src="https://i.ytimg.com/vi/ZLuFeDKMBKc/maxresdefault.jpg" alt="LEGO 3D Printer video" style="width:25vw"></a>
 </div>
 
 This is the MicroPython code for my LEGO 3D Printer, built using Pybricks for LEGO Mindstorms EV3. It processes G-code files to control the printer's movements and extrusion with a 3D pen.
